@@ -8,7 +8,7 @@ def find_ED(y1,y2,y3):
         ]
     out = []
     for i in range(len(x)):
-        ED = (x[i][0]-y1)**2 + (x[i][1]-y2)**2 + (x[i][2]-2)**2
+        ED = (x[i][0]-y1)**2 + (x[i][1]-y2)**2 + (x[i][2]-y3)**2
         ED = ED ** 0.5
         out.append(ED)
     return out
