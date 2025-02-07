@@ -1,0 +1,14 @@
+1. KNN formula for finding 'A B'
+E.D = sqrt((xi-x)^2 + (yi-y)^2)
+
+Point           Height      Weight      Age         Class
+A               170         70          30          F
+B               180         80          25          U
+C               160         60          35          F
+D               175         75          28          U
+E               165         65          31          F
+
+
+Finding f(172,72,29)
+
+ED = sqrt()
